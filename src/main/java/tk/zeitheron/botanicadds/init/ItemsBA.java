@@ -1,7 +1,6 @@
 package tk.zeitheron.botanicadds.init;
 
 import net.minecraft.item.Item;
-import tk.zeitheron.botanicadds.items.ItemGaiaAuraRing;
 import tk.zeitheron.botanicadds.items.ItemManaStealerSword;
 import tk.zeitheron.botanicadds.items.ItemOD;
 import tk.zeitheron.botanicadds.items.ItemTerraProtector;
@@ -15,6 +14,5 @@ public class ItemsBA
 	public static final Item GAIA_SHARD = new Item().setTranslationKey("gaia_shard");
 	public static final Item GAIASTEEL_INGOT = new ItemOD("gaiasteel_ingot", "ingotGaiasteel");
 	public static final ItemTerraProtector TERRA_PROTECTOR = new ItemTerraProtector();
-	public static final ItemGaiaAuraRing RING_AURA_GAIA = new ItemGaiaAuraRing();
 	public static final ItemManaStealerSword MANA_STEALER_SWORD = new ItemManaStealerSword();
 }

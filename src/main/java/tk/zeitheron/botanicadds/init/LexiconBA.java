@@ -33,7 +33,7 @@ public class LexiconBA
 	public static LexiconEntry dreaming_pool;
 	public static LexiconEntry gaia_plate;
 	public static LexiconEntry terra_protector;
-	public static LexiconEntry ring_aura_gaia;
+	
 	public static LexiconEntry mana_stealer_sword;
 	
 	public static void init()
@@ -77,9 +77,6 @@ public class LexiconBA
 		// Terra Protector
 		terra_protector = new BasicLexiconEntry("ba_terra_protector", categoryBotanicAdditions).setPriority().setKnowledgeType(BotaniaAPI.elvenKnowledge).setLexiconPages(new PageText("1"), new PageCraftingRecipe("2", RecipesBA.terra_protector));
 		terra_protector.setIcon(new ItemStack(ItemsBA.TERRA_PROTECTOR));
-		// Gaia Band of Aura
-		ring_aura_gaia = new BasicLexiconEntry("ba_ring_aura_gaia", categoryBotanicAdditions).setPriority().setKnowledgeType(BotaniaAPI.elvenKnowledge).setLexiconPages(new PageText("1"), new PageCraftingRecipe("2", RecipesBA.ring_aura_gaia));
-		ring_aura_gaia.setIcon(new ItemStack(ItemsBA.RING_AURA_GAIA));
 		// Mana Stealer Blade
 		mana_stealer_sword = new BasicLexiconEntry("ba_mana_stealer_sword", categoryBotanicAdditions).setPriority().setKnowledgeType(BotaniaAPI.elvenKnowledge).setLexiconPages(new PageText("1"), new PageCraftingRecipe("2", RecipesBA.mana_stealer_sword));
 		mana_stealer_sword.setIcon(new ItemStack(ItemsBA.MANA_STEALER_SWORD));
