@@ -98,7 +98,7 @@ public class BotanicAdditions
 	{
 		proxy.init();
 
-		GaiaPlateRecipesBA.init();
+		
 		PetalRecipesBA.init();
 		AltarRecipesBA.init();
 		PoolRecipesBA.init();
