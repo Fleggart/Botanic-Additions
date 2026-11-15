@@ -1,7 +1,6 @@
 package tk.zeitheron.botanicadds.init;
 
 import net.minecraft.item.Item;
-import tk.zeitheron.botanicadds.items.ItemOD;
 import tk.zeitheron.botanicadds.items.ItemTerraProtector;
 
 public class ItemsBA
