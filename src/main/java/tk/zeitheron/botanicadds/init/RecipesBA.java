@@ -45,7 +45,7 @@ public class RecipesBA
 		recipe(SimpleRegistration.parseShapedRecipe(new ItemStack(BlocksBA.ELVEN_ALTAR), "ddd", "dsd", "dad", 'd', new ItemStack(BlocksBA.DREAMROCK), 's', LibOreDict.DRAGONSTONE, 'a', new ItemStack(ModBlocks.runeAltar)).setRegistryName(elven_altar));
 		recipe(SimpleRegistration.parseShapedRecipe(new ItemStack(BlocksBA.DREAMING_POOL), "ddd", "dpd", "ttt", 'd', new ItemStack(BlocksBA.DREAMROCK), 'p', new ItemStack(ModBlocks.pool), 't', LibOreDict.TERRASTEEL_NUGGET).setRegistryName(dreaming_pool));
 		recipe(SimpleRegistration.parseShapedRecipe(new ItemStack(BlocksBA.GAIA_PLATE), "lll", "etp", "ggg", 'l', new ItemStack(BlocksBA.ELVEN_LAPIS_BLOCK), 'e', new ItemStack(ItemsBA.RUNE_ENERGY), 't', new ItemStack(ModBlocks.terraPlate), 'p', new ItemStack(ItemsBA.RUNE_TP), 'g', new ItemStack(ItemsBA.GAIA_SHARD)).setRegistryName(gaia_plate));
-		recipe(SimpleRegistration.parseShapedRecipe(new ItemStack(ItemsBA.TERRA_PROTECTOR), "ggg", "tst", " t ", 'g', new ItemStack(ItemsBA.GAIASTEEL_INGOT), 't', LibOreDict.TERRASTEEL_NUGGET, 's', LibOreDict.RUNE[4]).setRegistryName(terra_protector));
+		recipe(SimpleRegistration.parseShapedRecipe(new ItemStack(ItemsBA.TERRA_PROTECTOR), "ggg", "tst", " t ", 'g', LibOreDict.GAIA_INGOT, 't', LibOreDict.TERRASTEEL_NUGGET, 's', LibOreDict.RUNE[4]).setRegistryName(terra_protector));
 		recipe(SimpleRegistration.parseShapedRecipe(new ItemStack(BlocksBA.GAIASTEEL_BLOCK), "iii", "iii", "iii", 'i', "ingotGaiasteel").setRegistryName(gaiasteel_block));
 		recipe(SimpleRegistration.parseShapelessRecipe(new ItemStack(ItemsBA.GAIASTEEL_INGOT, 9), "blockGaiasteel").setRegistryName(gaiasteel_ingot));
 
