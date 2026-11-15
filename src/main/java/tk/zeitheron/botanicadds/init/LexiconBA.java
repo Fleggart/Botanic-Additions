@@ -31,7 +31,7 @@ public class LexiconBA
 	public static LexiconEntry terra_catalyst;
 	public static LexiconEntry elven_altar;
 	public static LexiconEntry dreaming_pool;
-	public static LexiconEntry gaia_plate;
+	
 	public static LexiconEntry terra_protector;
 	
 	
@@ -71,9 +71,6 @@ public class LexiconBA
 		// Dreaming Mana Pool
 		dreaming_pool = new BasicLexiconEntry("ba_dreaming_pool", categoryBotanicAdditions).setPriority().setLexiconPages(new PageText("1"), new PageCraftingRecipe("2", RecipesBA.dreaming_pool));
 		dreaming_pool.setIcon(new ItemStack(BlocksBA.DREAMING_POOL));
-		// Gaia Agglomeration Plate
-		gaia_plate = new BasicLexiconEntry("ba_gaia_plate", categoryBotanicAdditions).setPriority().setKnowledgeType(BotaniaAPI.elvenKnowledge).setLexiconPages(new PageText("1"), new PageCraftingRecipe("2", RecipesBA.gaia_plate), new PageMultiblock("3", TileGaiaPlate.makeMultiblockSet()), new PageGaiaPlate("4", GaiaPlateRecipesBA.TERRA_STEEL), new PageGaiaPlate("5", GaiaPlateRecipesBA.GAIA_STEEL));
-		gaia_plate.setIcon(new ItemStack(BlocksBA.GAIA_PLATE));
 		// Terra Protector
 		terra_protector = new BasicLexiconEntry("ba_terra_protector", categoryBotanicAdditions).setPriority().setKnowledgeType(BotaniaAPI.elvenKnowledge).setLexiconPages(new PageText("1"), new PageCraftingRecipe("2", RecipesBA.terra_protector));
 		terra_protector.setIcon(new ItemStack(ItemsBA.TERRA_PROTECTOR));

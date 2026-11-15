@@ -11,6 +11,5 @@ public class ItemsBA
 	public static final Item MANA_LAPIS = new Item().setTranslationKey("mana_lapis");
 	public static final Item ELVEN_LAPIS = new Item().setTranslationKey("elven_lapis");
 	public static final Item GAIA_SHARD = new Item().setTranslationKey("gaia_shard");
-	public static final Item GAIASTEEL_INGOT = new ItemOD("gaiasteel_ingot", "ingotGaiasteel");
 	public static final ItemTerraProtector TERRA_PROTECTOR = new ItemTerraProtector();
 }
