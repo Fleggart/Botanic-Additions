@@ -1,7 +1,7 @@
 package tk.zeitheron.botanicadds.init;
 
-import tk.zeitheron.botanicadds.blocks.tiles.TileGaiaPlate;
-import tk.zeitheron.botanicadds.lexicon.PageGaiaPlate;
+
+
 
 import net.minecraft.item.ItemStack;
 import vazkii.botania.api.BotaniaAPI;
@@ -13,8 +13,7 @@ import vazkii.botania.common.lexicon.BasicLexiconEntry;
 import vazkii.botania.common.lexicon.LexiconData;
 import vazkii.botania.common.lexicon.page.PageCraftingRecipe;
 import vazkii.botania.common.lexicon.page.PageElvenRecipe;
-import vazkii.botania.common.lexicon.page.PageManaInfusionRecipe;
-import vazkii.botania.common.lexicon.page.PageMultiblock;
+import vazkii.botania.common.lexicon.page.PageManaInfusionRecipe;;
 import vazkii.botania.common.lexicon.page.PagePetalRecipe;
 import vazkii.botania.common.lexicon.page.PageRuneRecipe;
 import vazkii.botania.common.lexicon.page.PageText;
