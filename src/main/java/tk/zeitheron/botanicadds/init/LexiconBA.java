@@ -47,11 +47,6 @@ public class LexiconBA
 		// Additional
 		LexiconData.runicAltar.setLexiconPages(new PageRuneRecipe(".ba_tp_rune", AltarRecipesBA.rune_tp), new PageRuneRecipe(".ba_energy_rune", AltarRecipesBA.rune_energy));
 		
-		
-		
-		// Wither Flower
-		wither_flower = new BasicLexiconEntry("ba_wither_flower", categoryBotanicAdditions).setPriority().setLexiconPages(new PageText("1"), new PagePetalRecipe("2", PetalRecipesBA.wither_flower));
-		wither_flower.setIcon(ItemBlockSpecialFlower.ofType("ba_wither_flower"));
 		// Rain Flower
 		rain_flower = new BasicLexiconEntry("ba_rain_flower", categoryBotanicAdditions).setPriority().setLexiconPages(new PageText("1"), new PagePetalRecipe("2", PetalRecipesBA.rain_flower));
 		rain_flower.setIcon(ItemBlockSpecialFlower.ofType("ba_rain_flower"));
