@@ -13,8 +13,7 @@ public class PoolRecipesBA
 	
 	public static void init()
 	{
-		mana_lapis.set(0, BotaniaAPI.registerManaInfusionRecipe(new ItemStack(ItemsBA.MANA_LAPIS), "gemLapis", 5000));
-		mana_lapis.set(1, BotaniaAPI.registerManaInfusionRecipe(new ItemStack(BlocksBA.MANA_LAPIS_BLOCK), "blockLapis", 45000));
+	
 	}
 	
 }
