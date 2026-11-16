@@ -20,14 +20,9 @@ public class RecipesBA
 		extends RecipeRegistry
 {
 	
-	public static final ResourceLocation mana_lapis_block = new ResourceLocation(InfoBA.MOD_ID, "mana_lapis_block"), mana_lapis = new ResourceLocation(InfoBA.MOD_ID, "mana_lapis");
-	public static final ResourceLocation elven_lapis_block = new ResourceLocation(InfoBA.MOD_ID, "elven_lapis_block"), elven_lapis = new ResourceLocation(InfoBA.MOD_ID, "elven_lapis");
 	public static final ResourceLocation elven_altar = new ResourceLocation(InfoBA.MOD_ID, "elven_altar");
 	public static final ResourceLocation dreaming_pool = new ResourceLocation(InfoBA.MOD_ID, "dreaming_pool");
-	
 	public static final ResourceLocation terra_protector = new ResourceLocation(InfoBA.MOD_ID, "terra_protector");
-	
-
 	public static RecipePureDaisy dreamwood;
 
 	@Override
@@ -37,17 +32,10 @@ public class RecipesBA
 		Loader.instance().setActiveModContainer(getOwner());
 
 		recipe(new RecipeLinkTesseract().setRegistryName("mana_tesseract_bind"));
-		recipe(SimpleRegistration.parseShapedRecipe(new ItemStack(BlocksBA.MANA_LAPIS_BLOCK), "lll", "lll", "lll", 'l', new ItemStack(ItemsBA.MANA_LAPIS)).setRegistryName(mana_lapis_block));
-		recipe(SimpleRegistration.parseShapelessRecipe(new ItemStack(ItemsBA.MANA_LAPIS, 9), new ItemStack(BlocksBA.MANA_LAPIS_BLOCK)).setRegistryName(mana_lapis));
-		recipe(SimpleRegistration.parseShapedRecipe(new ItemStack(BlocksBA.ELVEN_LAPIS_BLOCK), "lll", "lll", "lll", 'l', new ItemStack(ItemsBA.ELVEN_LAPIS)).setRegistryName(elven_lapis_block));
-		recipe(SimpleRegistration.parseShapelessRecipe(new ItemStack(ItemsBA.ELVEN_LAPIS, 9), new ItemStack(BlocksBA.ELVEN_LAPIS_BLOCK)).setRegistryName(elven_lapis));
 		recipe(SimpleRegistration.parseShapedRecipe(new ItemStack(BlocksBA.ELVEN_ALTAR), "ddd", "dsd", "dad", 'd', new ItemStack(BlocksBA.DREAMROCK), 's', LibOreDict.DRAGONSTONE, 'a', new ItemStack(ModBlocks.runeAltar)).setRegistryName(elven_altar));
 		recipe(SimpleRegistration.parseShapedRecipe(new ItemStack(BlocksBA.DREAMING_POOL), "ddd", "dpd", "ttt", 'd', new ItemStack(BlocksBA.DREAMROCK), 'p', new ItemStack(ModBlocks.pool), 't', LibOreDict.TERRASTEEL_NUGGET).setRegistryName(dreaming_pool));
-		
 		recipe(SimpleRegistration.parseShapedRecipe(new ItemStack(ItemsBA.TERRA_PROTECTOR), "ggg", "tst", " t ", 'g', LibOreDict.GAIA_INGOT, 't', LibOreDict.TERRASTEEL_NUGGET, 's', LibOreDict.RUNE[4]).setRegistryName(terra_protector));
 		
-		
-
 		Loader.instance().setActiveModContainer(prev);
 	}
 

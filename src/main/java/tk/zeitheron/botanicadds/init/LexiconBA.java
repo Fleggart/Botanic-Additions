@@ -22,7 +22,6 @@ public class LexiconBA
 {
 	public static LexiconCategory categoryBotanicAdditions;
 	
-	public static LexiconEntry wither_flower;
 	public static LexiconEntry rain_flower;
 	public static LexiconEntry snow_flower;
 	public static LexiconEntry lightning_flower;
@@ -47,8 +46,8 @@ public class LexiconBA
 		
 		// Additional
 		LexiconData.runicAltar.setLexiconPages(new PageRuneRecipe(".ba_tp_rune", AltarRecipesBA.rune_tp), new PageRuneRecipe(".ba_energy_rune", AltarRecipesBA.rune_energy));
-		LexiconData.pool.setLexiconPages(new PageManaInfusionRecipe(".ba_mana_lapis", PoolRecipesBA.mana_lapis));
-		LexiconData.elvenResources.setLexiconPages(new PageElvenRecipe(".ba_elven_lapis", ElvenTradesBA.elven_lapis), new PageElvenRecipe(".ba_elven_log", ElvenTradesBA.elvenwood_log), new PageElvenRecipe(".ba_dreamrock", ElvenTradesBA.dreamrock));
+		
+		);
 		
 		// Wither Flower
 		wither_flower = new BasicLexiconEntry("ba_wither_flower", categoryBotanicAdditions).setPriority().setLexiconPages(new PageText("1"), new PagePetalRecipe("2", PetalRecipesBA.wither_flower));
